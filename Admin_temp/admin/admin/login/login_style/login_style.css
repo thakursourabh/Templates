@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0; padding:0; background:url(../login_images/bg-login.gif); font-family:Arial, Helvetica, sans-serif}
+
+.loginbox{ width:600px; height:300px; position:absolute;  top:50%; margin:-150px auto 0 -300px; left:50%;  background-color:#FFF; border:3px solid #2C739D; -moz-border-radius: 7px; -webkit-border-radius: 7px; border-radius: 7px; padding:0 0px 8px 0px;}
+
+h1{ text-transform:uppercase; font-size:18px; background-color:#2C739D; text-align:center; border-bottom:1px solid #2C739D; 
+padding:0 0 5px 0; margin:0 0 10px 0; color:#FFF; line-height:30px; text-shadow: 1px 1px 1px #333;  }
+
+h2{ margin:0px 0 0 0; padding:0; color:#134671; text-shadow: 1px 1px 1px #ccc; }
+
+a{ font-size:12px; color:#134671; text-decoration:none}
+.forgot_pw{ margin-right:15px; text-align:right;}
+.clear{ clear:both;}
+.schooldiary{ margin-top:10px; text-align:right;}
+.schooldiary a{ color:#FFF; font-weight:bold; font-size:16px}
+
+.left_col{ width:250px; height:260px; float:left; text-align:center}
+.right_col{ width:330px; height:260px; float:right;}
+
+
+.button {
+				font-family: Verdana, Arial, sans-serif;
+                display: inline-block;
+                background: #164F7D url('../login_images/bg-button-green.gif') top left repeat-x !important;
+                border: 1px solid #164F7D !important;
+                padding: 6px 7px 6px 7px !important;
+                color: #fff !important;
+                font-size: 11px !important;
+                cursor: pointer; padding: 5px 7px 5px 7px !important;
+				 -moz-border-radius: 4px;
+                -webkit-border-radius: 4px;
+				border-radius: 4px;
+                }
+                
+.button:hover {
+                text-decoration: underline;
+                }
+                
+.button:active {
+               
+                }
+
+/*************** Forms ***************/
+
+form label {
+                display: block;
+                padding: 0 0 10px;
+                font-weight: bold;
+                }
+             
+form fieldset legend {
+                font-weight: bold;
+                margin-bottom: 10px;
+                padding-top: 10px;
+                }
+                
+form p small {
+                font-size: 0.75em;
+                color: #777;
+                }
+				
+				
+form input.text-input,
+form select,
+form textarea,
+form .wysiwyg {
+                padding: 6px;
+                font-size: 13px;
+                background: #fff url('../login_images/bg-form-field.gif') top left repeat-x;
+                border: 1px solid #d5d5d5;
+				color: #333;
+				 -moz-border-radius: 4px;
+                -webkit-border-radius: 4px;
+				border-radius: 4px;
+                }
+            
+form .small-input {
+                width: 25% !important;
+                }
+                
+form .medium-input {
+                width: 50% !important;
+                }
+                
+form .large-input {
+                width: 90% !important;
+				font-size: 16px !important;
+				padding: 8px !important;
+                }
+                
+form textarea {
+                width: 94% !important;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+                
+form select {
+                padding: 4px;
+                background: #fff;
+                }
+				
+form input[type="checkbox"],
+form input[type="radio"] {
+				padding: 0;
+                background: none;
+				border: 0;
+                }
